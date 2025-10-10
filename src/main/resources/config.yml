@@ -1,0 +1,30 @@
+# Configuration for VelocityAutoBackup
+
+# --- Backup Schedule ---
+# Enter a list of daily backup times in "HH:mm" (24-hour) format.
+# You can add as many as you like.
+# The example below will back up at 2 AM AND 2 PM.
+backup-times:
+  - "02:00"
+  - "14:00"
+
+# --- Timezone ---
+# The timezone for the schedule. Default is UTC.
+# A list of valid IDs can be found here: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "UTC"
+
+# --- Google Drive Settings ---
+# The ID of the Google Drive folder where backups will be uploaded.
+google-drive-folder-id: "PASTE_YOUR_FOLDER_ID_HERE"
+
+# --- Credentials ---
+# The name of the JSON key file downloaded from Google Cloud.
+credentials-file-name: "credentials.json"
+
+# --- File Naming ---
+# Set the server name to be used in the backup filename.
+server-name: "proxy"
+
+# Set the format for the backup filename.
+# Use {timestamp} and {server_name}.
+backup-file-name: "Backup-{server_name}-{timestamp}.zip"

@@ -1,0 +1,11 @@
+{
+  "id": "velocityautobackup",
+  "name": "Velocity Auto Backup",
+  "version": "1.0-SNAPSHOT",
+  "description": "Automatically backs up the entire proxy server to Google Drive.",
+  "url": "https://modrinth.com/plugin/velocityautobackup",
+  "authors": [
+    "CYDEV-ID"
+  ],
+  "main": "com.yourdomain.velocityautobackup.VelocityAutoBackup"
+}
