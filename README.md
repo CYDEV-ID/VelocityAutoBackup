@@ -14,7 +14,7 @@ This plugin is specifically designed to work with personal Google accounts, util
 
 **_Reliable Anti-Loop Logic_** 🛡️: Built with a smart mechanism to automatically exclude its own directory from the backup process, preventing "backup loop" issues that can cause file sizes to grow uncontrollably.
 
-[How to setup VelocityAutoBackup](https://github.com/DeluzeKitsuu/VelocityAutoBackup/blob/main/SETUP.md)
+[How to setup VelocityAutoBackup](https://github.com/DeluzeKitsuu/VelocityAutoBackup/blob/master/SETUP.md)
 
 ## Configuration
 
